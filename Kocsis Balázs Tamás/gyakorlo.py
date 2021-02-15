@@ -1,5 +1,5 @@
 # gyakorlo feladat
-szam = 9
+szam = 11
 while szam>=0:
     print(szam)
     szam = szam - 2
