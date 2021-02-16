@@ -6,4 +6,4 @@ while folytatja:
     if not szam%2 == 0:
         folytatja = True
         print("Ez nem páros szám! Adj meg egy új számot")
-print("Szép!")
+print("Szép!") 
