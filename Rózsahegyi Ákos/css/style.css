@@ -1,0 +1,9 @@
+html {
+    height: 100%
+}
+body {
+    background-image: url(../bg-body.gif);
+    background-repeat: repeat-y;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
