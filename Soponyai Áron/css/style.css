@@ -1,6 +1,12 @@
+html{
+    height: 200%
+
+    }
+
 body{
     background-image: url(../bg-body.gif);
     font-family: sans-serif;
     font-style: italic;
-
+    background-repeat: no-repeat;
+    background: fixed;
     }
