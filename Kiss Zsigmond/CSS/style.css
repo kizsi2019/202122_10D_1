@@ -4,7 +4,7 @@ html {
 
 body {
     background-image: url(../bg-body.gif);
-    background-repeat: repeat;
-    background-position: bottom right;
+    background-repeat: repeat-y;
+    background-position: center center;
     background-attachment: fixed;
 }
