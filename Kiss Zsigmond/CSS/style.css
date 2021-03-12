@@ -1,9 +1,10 @@
-html{
+html {
     height: 100%
 }
-body{
+
+body {
     background-image: url(../bg-body.gif);
-    background-repeat: repeat;
-    background-position: bottom center;
+    background-repeat: repeat-y;
+    background-position: center center;
     background-attachment: fixed;
 }
