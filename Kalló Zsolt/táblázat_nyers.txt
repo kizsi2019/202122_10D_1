@@ -1,54 +1,66 @@
 
-<!--
-cikkszám
-szerző
-cím
-készlet
-ár
+<!DOCTYPE html>
+<html lang="hu">
 
-123313
-Frei Tamás
-Bábel
-4 464 Ft
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>táblázat</title>
+</head>
 
-985632
-Danile Goleman
-Érzelmi Intelligencia
-3 790 Ft
+<body>
 
-058964
-Ann Napolitano
-Ezüst madarak
-3 790 Ft
+    <table>
+        <tr>
+            <th>
+                cikkszám
+            </th>
+            <th>
+                szerző
+            </th>
+            <th>
+                cím
+            </th>
+            <th>
+                ár
+            </th>
 
-762465
-Nicolas Barreau
-Piciny csodák kávézója
-3 315 Ft
+        </tr>
+        <tr>
+            <td>
+                123313
+            </td>
+            <td>
+                Frei Tamás
+            </td>
+            <td>
+                Bábel
+            </td>
+            <td>
+                4 464 Ft
+            </td>
+        </tr>
+        <tr>
+            <td>
+                985632
+            </td>
+            <td>
+                Danile Goleman
+            </td>
+            <td>
+                Érzelmi Intelligencia
+            </td>
+            <td>
+                3 790 Ft
+            </td>
+        </tr>
 
-782456
-Bödőcs Tibor
-Meg se kínáltak
-3 324 Ft
 
-628752
-Riley Sager
-Zárj be minden ajtót!
-2 793 Ft
+    </table>
+</body>
 
-198632
-Alafair Burke
-Az ex
-2 394 Ft
-
-556987
-Rebecca Fleet
-Múlt kölcsönbe
-1 110 Ft
-
-24 980 Ft
--->
-
+</html> 
 
 
 

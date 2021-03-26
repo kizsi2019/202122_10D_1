@@ -1,10 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%
 }
 
 body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 20px;
     background-image: url(../bg-body.gif);
-    background-repeat: repeat-y;
     background-position: center center;
     background-attachment: fixed;
+}
+
+div {
+    box-sizing: border-box;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: green
 }
