@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+
 html{
-    height: 200%
-
-    }
-
-body{
-    background-image: url(../bg-body.gif);
-    font-family: sans-serif;
-    font-style: italic;
-    background-repeat: no-repeat;
-    background: fixed;
-    }
+    height: 100%
+}
+body 
+{
+ font-family:'Ravi Prakash', cursive;
+ color: white;
+ font-style: italic;
+ font-size: 20px;
+ font-weight: 200;
+ background-image: url(../bg-body.gif);
+ background-repeat: repeat;
+ background-position:bottom right ;
+ background-attachment: fixed;
+}
