@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 html{
     height: 100%
 }
@@ -11,4 +16,12 @@ body{
     background-repeat: repeat;
     background-position: bottom center;
     background-attachment: fixed;
+}
+
+div{
+    width: 400px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: yellow
 }
