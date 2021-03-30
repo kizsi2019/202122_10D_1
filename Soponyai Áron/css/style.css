@@ -16,3 +16,12 @@ body
  background-position:bottom right ;
  background-attachment: fixed;
 }
+
+div{
+    border: solid 10px aquamarine ;
+    padding: 20px 0 10px 0;
+    width: 90%;
+    border-left-width: 30px;
+    border-right: dotted red;
+    margin: 20px;
+}
