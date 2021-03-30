@@ -17,3 +17,8 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
+
+div {
+    width: 400px;
+    padding: 20px;
+}
