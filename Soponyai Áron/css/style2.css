@@ -1,0 +1,23 @@
+ body{
+
+    background: url(../bg-body.gif);
+
+ }
+
+ *{
+
+    box-sizing: border-box;
+
+ }
+
+.box{
+
+    background-color: aquamarine;
+    max-width: 600px;
+
+}
+
+.header-image{
+
+    background: url(../pics/image1.jpg);
+}
