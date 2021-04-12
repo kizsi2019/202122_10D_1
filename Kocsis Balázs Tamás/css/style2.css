@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background : url(../pics/bg-body.gif) fixed;
+}
+
+.box{
+    background-color: blanchedalmond;
+    max-width: 600px;
+    width: 90%;
+    margin: 40px auto;
+}
+.box .header-image{
+    background: url(../pics/image1.jpg) top center;
+    height: 200px;
+}
+.box .box-content p{
+    color:crimson
+}
+.box .box-content h2{
+    margin: 0;
+    color:crimson
+}
+.box .box-content .details{
+    margin: 16px 0 0 0;
+}
+.box .box-content .details a{
+    background:blueviolet;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
