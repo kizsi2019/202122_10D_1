@@ -1,13 +1,39 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    backgroung : url(../pics/bg-body.gif) fixed;
+
+body {
+    background: url(../pics/bg-body.gif) fixed;
 }
+
 .box {
-    background-color: white
+    background-color: white;
     max-width: 600px;
+    width: 90%;
+    margin: 40px auto;
 }
-.header-image{
-    background: url(../pics/image1.jpg)
+
+.box .header-image {
+    background: url(../pics/image1.jpg) top center;
+    height: 200px
+}
+
+.box .box-content p{
+    color:goldenrod
+}
+
+.box .box-content{
+    margin: 0;
+    color: goldenrod;
+}
+
+.box .box-content .details{
+    margin: 16px 0 0 0
+}
+
+.box .box-content .details a{
+    background:white
+    color tomato;
+    display:inline-block
+    text-decoration none
 }
