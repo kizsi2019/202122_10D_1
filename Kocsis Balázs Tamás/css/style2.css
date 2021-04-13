@@ -4,6 +4,8 @@
 
 body{
     background : url(../pics/bg-body.gif) fixed;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .box{
@@ -12,9 +14,13 @@ body{
     width: 90%;
     margin: 40px auto;
 }
+.box .box-content{
+    padding: 20px;
+}
 .box .header-image{
     background: url(../pics/image1.jpg) top center;
     height: 200px;
+    box-shadow: 0 0 30px rgba(0,0,0,.7);
 }
 .box .box-content p{
     color:crimson
@@ -32,4 +38,7 @@ body{
     padding: 5px 10px;
     display: inline-block;
     text-decoration: none;
+}
+.box.box-2 .header-image{
+    background-image: url(../pics/image2.jpg);
 }
