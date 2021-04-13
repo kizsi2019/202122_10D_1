@@ -7,8 +7,31 @@ body{
 .box{
     background-color: white;
     max-width: 600px;
+    width: 90%;
+    margin: 40px auto;
 }
-.header-image{
-    background: url(../pics/image1.jpg);
+.box .header-image {
+    background: url(../pics/image1.jpg) top center;
     height: 100px;
+}
+
+.box .box-content p {
+    color: grey;
+}
+
+.box .box-content h2 {
+    margin: 0;
+    color: blue;
+}
+
+.box .box-content .details {
+    margin: 16px 0 0 0
+}
+
+.box .box-content .details a {
+    background: #feb127;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none
 }

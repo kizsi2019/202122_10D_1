@@ -1,23 +1,40 @@
- body{
-
-    background: url(../bg-body.gif);
-
- }
-
- *{
-
+* {
     box-sizing: border-box;
-
- }
-
-.box{
-
-    background-color: aquamarine;
-    max-width: 600px;
-
 }
 
-.header-image{
+body {
+    background: url(../pics/bg-body.gif) fixed;
+}
 
-    background: url(../pics/image1.jpg);
+.box {
+    background-color: white;
+    max-width: 600px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.box .header-image {
+    background: url(../pics/image1.jpg) top center;
+    height: 200px
+}
+
+.box .box-content p {
+    color: #535353
+}
+
+.box .box-content h2 {
+    margin: 0;
+    color: #32859d;
+}
+
+.box .box-content .details {
+    margin: 16px 0 0 0
+}
+
+.box .box-content .details a {
+    background: #feb127;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none
 }
