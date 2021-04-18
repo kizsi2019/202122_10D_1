@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    font-family: 'Mina', sans-serif;
+    margin: 0px;
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    background-image: url(../pics/backg.jpeg);
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+.box {
+    background-color: white;
+    line-height: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1)
+}
+
+
+/* Revita */
+
+.box .box-content {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.box .box-content h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+    color: #2010ad;
+}
+
+.box .header-image {
+    background: url(../pics/Revita.jpg) top center;
+    height: 350px;
+}
+
+.box .box-content .details {
+    margin: 16px 0 0 0;
+}
+
+.box .box-content .details a {
+    background: #f0be1b;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: dashed;
+}
+
+
+/* Rocket League */
+
+.box.box-2 .box-content {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.box-box-2 .box-content h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+    color: #2010ad;
+}
+
+.box.box-2 .header-image {
+    background: url(../pics/RL.jpg) top center;
+    height: 450px;
+}
+
+.box.box-2 .box-content .details {
+    margin: 16px 0 0 0;
+}
+
+.box-box-2 .box-content .details a {
+    background: #f0be1b;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: dashed;
+}
+
+
+/* Valheim */
+
+.box.box-3 .box-content {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.box-box-3 .box-content h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+    color: #2010ad;
+}
+
+.box.box-3 .header-image {
+    background: url(../pics/Valheim.jpg) top center;
+    height: 355px;
+}
+
+.box.box-3 .box-content .details {
+    margin: 16px 0 0 0;
+}
+
+.box-box-3 .box-content .details a {
+    background: #f0be1b;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: dashed;
+}
