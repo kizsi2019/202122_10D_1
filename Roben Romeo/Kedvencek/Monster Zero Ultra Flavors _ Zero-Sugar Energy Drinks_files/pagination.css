@@ -1,0 +1,368 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jsgrid-pager-container {
+  font-size: 14px;
+  font-family: "PT Sans", sans-serif;
+  color: #2E4057;
+  background-color: #ffffff;
+}
+
+.jsgrid-pager-container a {
+  color: #2E4057;
+  text-decoration: none;
+}
+
+.jsgrid-pager-container section {
+  /* used just to separate paginations */
+  border-bottom: 1px solid #e6e6e6;
+}
+.jsgrid-pager-container section h2 {
+  width: 90%;
+  margin: 2em auto 0;
+  color: #7d98ba;
+  font-weight: 700;
+  text-align: center;
+}
+@media only screen and (min-width: 1170px) {
+  section h2 {
+    margin: 4em auto 0;
+  }
+}
+
+/* -------------------------------- 
+
+Basic style
+
+-------------------------------- */
+nav[role="navigation"] {
+  text-align: center;
+}
+
+.jsgrid-pager-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 2em auto 4em;
+  text-align: center;
+}
+.jsgrid-pager-container li {
+  /* hide numbers on small devices */
+  display: none;
+  margin: 0 .2em;
+}
+.jsgrid-pager-container li.button {
+  /* make sure prev next buttons are visible */
+  display: inline-block;
+}
+.jsgrid-pager-container a, .jsgrid-pager-container span {
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* use padding and font-size to change buttons size */
+  padding: .6em .8em;
+  font-size: 14px;
+}
+.jsgrid-pager-container a {
+  border: 1px solid #e6e6e6;
+  border-radius: 0.25em;
+}
+.no-touch .jsgrid-pager-container a:hover {
+  background-color: #f2f2f2;
+}
+.jsgrid-pager-container a:active {
+  /* click effect */
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.jsgrid-pager-container a.disabled {
+  /* button disabled */
+  color: rgba(46, 64, 87, 0.4);
+  pointer-events: none;
+}
+.jsgrid-pager-container a.disabled::before, .jsgrid-pager-container a.disabled::after {
+  opacity: .4;
+}
+.jsgrid-pager-container .button:first-of-type a::before {
+  content: '\00ab  ';
+}
+.jsgrid-pager-container .button:last-of-type a::after {
+  content: ' \00bb';
+}
+.jsgrid-pager-container .current {
+  /* selected number */
+  background-color: #64a281;
+  border-color: #64a281;
+  color: #ffffff;
+  pointer-events: none;
+}
+@media only screen and (min-width: 768px) {
+  .jsgrid-pager-container li {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .jsgrid-pager-container {
+    margin: 4em auto 8em;
+  }
+}
+
+/* -------------------------------- 
+
+No space - remove distance between list items
+
+-------------------------------- */
+.jsgrid-pager-container.no-space {
+  width: auto;
+  max-width: none;
+  display: inline-block;
+  border-radius: 0.25em;
+  border: 1px solid #e6e6e6;
+}
+.jsgrid-pager-container.no-space:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.jsgrid-pager-container.no-space li {
+  margin: 0;
+  float: left;
+  border-right: 1px solid #e6e6e6;
+}
+.jsgrid-pager-container.no-space li:last-of-type {
+  border-right: none;
+}
+.jsgrid-pager-container.no-space a, .jsgrid-pager-container.no-space span {
+  float: left;
+  border-radius: 0;
+  padding: .8em 1em;
+  border: none;
+}
+.jsgrid-pager-container.no-space li:first-of-type a {
+  border-radius: 0.25em 0 0 0.25em;
+}
+.jsgrid-pager-container.no-space li:last-of-type a {
+  border-radius: 0 0.25em 0.25em 0;
+}
+
+/* -------------------------------- 
+
+move buttons - move prev and next buttons to the sides
+
+-------------------------------- */
+.jsgrid-pager-container.move-buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.jsgrid-pager-container.move-buttons .button:first-of-type {
+  float: left;
+}
+.jsgrid-pager-container.move-buttons .button:last-of-type {
+  float: right;
+}
+
+.jsgrid-pager-container.no-space.move-buttons {
+  width: 90%;
+  max-width: 768px;
+  display: block;
+  overflow: hidden;
+}
+.jsgrid-pager-container.no-space.move-buttons li {
+  float: none;
+  border: none;
+}
+.jsgrid-pager-container.no-space.move-buttons a, .jsgrid-pager-container.no-space.move-buttons span {
+  float: none;
+}
+
+/* -------------------------------- 
+
+custom icons - customize the small arrow inside the next and prev buttons 
+
+-------------------------------- */
+.jsgrid-pager-container.custom-icons .button a {
+  position: relative;
+}
+.jsgrid-pager-container.custom-icons .button:first-of-type a {
+  padding-left: 2.4em;
+}
+.jsgrid-pager-container.custom-icons .button:last-of-type a {
+  padding-right: 2.4em;
+}
+.jsgrid-pager-container.custom-icons .button:first-of-type a::before,
+.jsgrid-pager-container.custom-icons .button:last-of-type a::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  /* set size for custom icons */
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  /* set margin-top = icon height/2 */
+  margin-top: -8px;
+  background: transparent url("../img/cd-icon-arrow-1.svg") no-repeat center center;
+}
+.jsgrid-pager-container.custom-icons .button:first-of-type a::before {
+  left: .8em;
+}
+.jsgrid-pager-container.custom-icons .button:last-of-type a::after {
+  right: .8em;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* -------------------------------- 
+
+custom buttons - replace prev and next buttons text with a custom icon 
+
+-------------------------------- */
+.jsgrid-pager-container.custom-buttons a, .jsgrid-pager-container.custom-buttons span {
+  vertical-align: middle;
+}
+.jsgrid-pager-container.custom-buttons .button a {
+  /* set custom width */
+  width: 40px;
+  /* image replacement */
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  color: transparent;
+  background-image: url("../img/cd-icon-arrow-2.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.jsgrid-pager-container.custom-buttons .button:last-of-type a {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.no-touch .jsgrid-pager-container.custom-buttons .button:last-of-type a:active {
+  -webkit-transform: scale(0.9) rotate(180deg);
+  -moz-transform: scale(0.9) rotate(180deg);
+  -ms-transform: scale(0.9) rotate(180deg);
+  -o-transform: scale(0.9) rotate(180deg);
+  transform: scale(0.9) rotate(180deg);
+}
+
+.jsgrid-pager-container.no-space.custom-buttons .button:last-of-type a {
+  border-radius: 0.25em 0 0 0.25em;
+}
+
+/* -------------------------------- 
+
+animated buttons - animate the text inside prev and next buttons 
+
+-------------------------------- */
+.jsgrid-pager-container.animated-buttons a, .jsgrid-pager-container.animated-buttons span {
+  padding: 0 1.4em;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+}
+.jsgrid-pager-container.animated-buttons .button a {
+  position: relative;
+  padding: 0 2em;
+}
+.jsgrid-pager-container.animated-buttons .button:first-of-type a::before,
+.jsgrid-pager-container.animated-buttons .button:last-of-type a::after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  right: auto;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+.jsgrid-pager-container.animated-buttons .button:last-of-type a::after {
+  -webkit-transform: translateX(-50%) rotate(180deg);
+  -moz-transform: translateX(-50%) rotate(180deg);
+  -ms-transform: translateX(-50%) rotate(180deg);
+  -o-transform: translateX(-50%) rotate(180deg);
+  transform: translateX(-50%) rotate(180deg);
+}
+.jsgrid-pager-container.animated-buttons i {
+  display: block;
+  height: 100%;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.no-touch .jsgrid-pager-container.animated-buttons .button a:hover i {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.no-touch .jsgrid-pager-container.animated-buttons .button:first-of-type a:hover::before {
+  -webkit-transform: translateX(-50%) translateY(-50px);
+  -moz-transform: translateX(-50%) translateY(-50px);
+  -ms-transform: translateX(-50%) translateY(-50px);
+  -o-transform: translateX(-50%) translateY(-50px);
+  transform: translateX(-50%) translateY(-50px);
+}
+
+.no-touch .jsgrid-pager-container.animated-buttons .button:last-of-type a:hover::after {
+  -webkit-transform: translateX(-50%) rotate(180deg) translateY(50px);
+  -moz-transform: translateX(-50%) rotate(180deg) translateY(50px);
+  -ms-transform: translateX(-50%) rotate(180deg) translateY(50px);
+  -o-transform: translateX(-50%) rotate(180deg) translateY(50px);
+  transform: translateX(-50%) rotate(180deg) translateY(50px);
+}
+
+.jsgrid-pager-container ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.jsgrid-pager-container article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+.jsgrid-pager-container ol, ul {
+	list-style: none;
+}
+.jsgrid-pager-container blockquote, q {
+	quotes: none;
+}
+.jsgrid-pager-container blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.jsgrid-pager-container table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
