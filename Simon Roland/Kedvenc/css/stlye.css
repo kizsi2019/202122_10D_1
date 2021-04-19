@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../pics/pngtree-gameover-electric-sound-wind-psychedelic-video-game-background-map-image_414153.jpg) fixed;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    background-color: orange;
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.box .box-content {
+    padding: 20px;
+}
+
+.box .header-image {
+    background: url(../pics/WFGfhQJ.jpg) top center;
+    height: 400px;
+}
+
+.box .box-content p {
+    height: 100px;
+    color: black
+
+}
+.box .box-content h3 {
+    color: black
+
+}
+
+.box .box-content .details {
+    margin: 13px 10px 0 0
+}
+
+.box .box-content .details a {
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none
+
+}
+
+
+.box-2 .header-image {
+    background-image: url(../pics/8a7a58c6bb68b1e1509fc86356f83020.jpg);
+    height: 400px;
+}
+.box-3 .header-image {
+    background-image: url(../pics/apps.61214.71827372323164480.6e97c7d2-899a-404f-8660-d622a7fc9162.jpg);
+}
+.box-4 .header-image {
+    background-image: url(../pics/war\ thunder\ 2.jpg);
+}

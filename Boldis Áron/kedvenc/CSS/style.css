@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    background: url(../pics/backkround.png) fixed;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+    background-color: white;
+    max-width: 1000px;
+    width: 90%; 
+    margin: 40px auto;
+    box-shadow: 0 0 30px rgba(0,0,0,.7);
+}
+
+.box .box-content{
+    padding: 20px;
+}
+
+.box .header-image{
+    background: url(../pics/csgo-1.jpg) top center;
+    height: 400px;
+    
+}
+
+.box .box-content p{
+    color: #535353
+}
+
+.box .box-content h2{
+    margin: 0;
+    color: #b81509
+}
+
+.box .box-content .details{
+    margin: 16px 0 0 0
+}
+
+.box .box-content .details a{
+    color: blue;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.box.box-2 .header-image{
+
+background-image: url(../pics/rainbow-six-siege.jpeg);
+}

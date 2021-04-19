@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background : url(../pics/wallpaper.jpg) fixed;
+
+    margin: 0;
+    font-family:'Orelega One', cursive;
+}
+
+.box{
+    background-color:white;
+    max-width: 500px;
+    width: 80%;
+    margin: 30px auto;
+
+}
+.box .box-content{
+    padding: 20px;
+}
+.box .header-image{
+    background: url(../pics/OTW.jpg);
+    height: 500px;
+    width: 500px;
+    
+}
+.box .box-content p{
+    color:orange
+}
+.box .box-content h2{
+    margin: 0;
+    color:orange
+}
+.box .box-content .details{
+    margin: 16px 0 0 0;
+}
+.box .box-content .details a{
+    background:black;
+    color:orange;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box.box-2 .header-image{
+    background-image: url(../pics/loyal.jpg);
+    height: 500px;
+    width: 500px;
+}
+.box.box-2 .box-content p{
+    color:orange
+}
+.box.box-2 .box-content h2{
+    margin: 0;
+    color:orange
+}
+.box.box-2 .box-content .details{
+    margin: 16px 0 0 0;
+}
+.box.box-2 .box-content .details a{
+    background:black;
+    color:orange;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.box.box-3 .header-image{
+    background-image: url(../pics/caramelo.jpg);
+    height: 500px;
+    width: 500px
+}
+.box.box-3 .box-content p{
+    color:orange
+}
+.box.box-3 .box-content h2{
+    margin: 0;
+    color:orange
+}
+.box.box-3 .box-content .details{
+    margin: 16px 0 0 0;
+}
+.box.box-3 .box-content .details a{
+    background:black;
+    color:orange;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
