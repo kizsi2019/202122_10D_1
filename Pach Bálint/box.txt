@@ -6,7 +6,7 @@
 body {
     background: url(../pics/bg-body.gif) fixed;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;a
 }
 
 .box {
