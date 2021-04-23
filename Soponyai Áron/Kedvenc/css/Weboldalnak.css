@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    cursor: url(https://cdn.discordapp.com/attachments/763084485939036170/831248297062170684/8mofvvkvd0931.png), pointer;
+}
+
+body {
+    background: url(https://static.zerochan.net/Fate.Grand.Order.Arcade.full.2226838.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -800px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    background-color: rgb(39, 39, 39);
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .7)
+}
+
+.box .box-content {
+    padding: 50px;
+}
+
+.box .header-image {
+    background: url(https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/2015/06/15/maxresdefault.jpg?itok=cbtfKYO3);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box .box-content p {
+    color: #ffffff;
+    size: 150px;
+}
+
+.box .box-content h2 {
+    margin: 0;
+    color: red;
+}
+
+.box .box-content .details {
+    margin: 16px 0 0 0
+}
+
+.box .box-content .details a {
+    background: #feb127;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none
+}
+
+.box.box-2 .header-image {
+    background-image: url(https://wallpaperaccess.com/full/389646.jpg);
+}
+
+h1{
+    text-align: center;
+    color: red;
+    size: 300px;
+}
+h2{
+    text-align: center;
+    color: red;
+    size: 300px;
+}
+h3{
+    text-align: center;
+    color: red;
+    size: 300px;
+}
+h4{
+    text-align: center;
+    color: red;
+    size: 300px;
+}
+h5{
+    text-align: center;
+    color: red;
+    size: 300px;
+}
+.box.box-3 .header-image {
+    background-image: url(https://wallpaperaccess.com/full/1360397.png);
+}
+.box.box-4 .header-image {
+    background-image: url(https://ssvar.ch/wp-content/uploads/2020/07/emiya-theme-fate-stay-night-unlimited-blade-works.jpg);
+}
+.box.box-5 .header-image {
+    background-image: url(https://occ-0-92-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVqz9fKfPjcelAWg-cmrE_jxwZtq3fO2RcwRIK6SPKKyvTnfHclQ4w9KxglRGTwq4ImIy4oftsI6nfR5aG3TzWUcw8_2.jpg?r=767);
+}

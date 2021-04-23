@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    font-family: 'Mina', sans-serif;
+    margin: 0px;
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    background-image: url(../pics/backg.jpeg);
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+.box {
+    background-color: white;
+    line-height: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1)
+}
+
+
+/* Revita */
+
+.box .box-content {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.box .box-content h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+    color: #2010ad;
+}
+
+.box .header-image {
+    background: url(https://i2.wp.com/galaktika.hu/wp-content/uploads/2015/11/maxcover-1.jpg?fit=1920%2C1080&ssl=1) top center;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.box .box-content .details {
+    margin: 16px 0 0 0;
+}
+
+.box .box-content .details a {
+    background: #f0be1b;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: dashed;
+}
+
+
+/* Rocket League */
+
+.box.box-2 .box-content {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.box-box-2 .box-content h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+    color: #2010ad;
+}
+
+.box.box-2 .header-image {
+    background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/130694281/original/036068ab0353cbc6d153879c61d59e5ed56e66a4/teach-you-how-to-play-rainbow-six-siege-on-ps4.png) center;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+.box.box-2 .box-content .details {
+    margin: 16px 0 0 0;
+}
+
+.box-box-2 .box-content .details a {
+    background: #f0be1b;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: dashed;
+}
+
+
+/* Valheim */
+
+.box.box-3 .box-content {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.box-box-3 .box-content h1 {
+    font-size: 50px;
+    margin: 20px 0px;
+    color: #2010ad;
+}
+
+.box.box-3 .header-image {
+    background: url(https://www.pcdome.hu/gallery/article/54226/article-headline-1.jpg) top center;
+    height: 355px;
+}
+
+.box.box-3 .box-content .details {
+    margin: 16px 0 0 0;
+}
+
+.box-box-3 .box-content .details a {
+    background: #1bf050;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: dashed;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pics/Monster.jpg) fixed;
+    margin: 100;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    background-color: orange;
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.box .box-content {
+    padding: 20px;
+}
+
+.box .header-image {
+    background: url() top center;
+    height: 400px;
+}
+
+.box .box-content p {
+    height: 100px;
+    color: black
+}
+
+.box .box-content h3 {
+    color: black
+}
+
+.box .box-content .details {
+    margin: 13px 10px 0 0
+}
+
+.box .box-content .details a {
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none
+}
+
+.box-2 .header-image {
+    background-image: url();
+    height: 400px;
+}
+
+.box-3 .header-image {
+    background-image: url();
+}
+
+.box-4 .header-image {
+    background-image: url();
+}
