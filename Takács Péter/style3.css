@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pics/meLrMay.jpg) fixed;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    background-color: rgba(228, 66, 2, 0.466);
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.box .box-content {
+    padding: 20px;
+}
+
+.box .header-image {
+    background: url(pics/god-of-war.jpg) center;
+    height: 300px;
+    background-repeat: no-repeat;
+    
+}
+
+.box .box-content p {
+    height: 100px;
+    color: black
+
+}
+.box .box-content h3 {
+    color: black
+
+}
+
+.box .box-content .details {
+    margin: 13px 10px 0 0
+}
+
+.box .box-content .details a {
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none
+
+}
+
+
+.box-2 .header-image {
+    background-image: url(pics/Daysgone.jpg);
+    height: 400px;
+}
+.box-3 .header-image {
+    background-image: url(pics/Borderlands.jpg);
+}
+.box-4 .header-image {
+    background-image: url(pics/TheLastofUs.jpg);
+}
