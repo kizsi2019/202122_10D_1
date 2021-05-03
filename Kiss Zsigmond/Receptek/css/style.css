@@ -64,4 +64,36 @@ nav a:hover {
 main {
     width: 75%;
     float: left;
+    background: white;
+    padding: 30px;
+}
+
+main p {
+    line-height: 23px;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.float-left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer a {
+    color: black;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
 }
