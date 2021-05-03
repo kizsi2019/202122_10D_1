@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedvenc játékaim</title>
+    <link rel="stylesheet" type="text/css" href="css/stlye.css">
+    <link rel="icon" type="image/png" href="../favicon.ico">
+</head>
+<body>
+    <div class="box">
+        <div class="header-image">
+
+        </div>
+        <div class="box-content">
+            <h2>Formula ONE 2020</h2>
+            <p>
+               A Formula ONE 2020 (rövidítve: F1) a Codemasters álltal fejlesztett Föld körüli autóversenyzős arkad tipusú játék, amit az egész Földön több 100 000 000 játékos játszik minden nap.
+            </p>
+            <p class="details">
+                <a href="https://www.youtube.com/watch?v=6lITuteSXo0" target="_blank">
+                <img border="0" alt="videó" src="https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.gamechannel.hu%2Fpictures%2Fkifuto%2Ff1-2020_1.jpg&imgrefurl=http%3A%2F%2Fwww.gamechannel.hu%2Fcikk%2Fkifuto%2Ff1-2020&tbnid=fXspp1z0S1hCcM&vet=12ahUKEwjMvMDj-pnwAhV6AmMBHTblC6sQMygFegUIARDYAg..i&docid=HuJbI5iqmNZEvM&w=1920&h=1080&q=f1%202020%20game&ved=2ahUKEwjMvMDj-pnwAhV6AmMBHTblC6sQMygFegUIARDYAg" width="50" height="50">
+                </a>
+            </p>
+        </div>
+        <div class="box-2" >
+            <div class="header-image">
+    
+            </div>
+            <div class="box-content">
+                <h2>Team Fortress 2</h2>
+                <p>
+                    A Team Fortress 2 (röviden: TF2) online csapatalapú first-person shooter, amelyet a Valve Corporation fejleszt, akik korábban a Team Fortress 2 frissítéseiért is feleltek. 
+                </p>
+                <p class="details">
+                    <a href="https://www.teamfortress.com/" target="_blank">
+                    <img border="0" alt="TF2" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwiki.teamfortress.com%2Fw%2Fimages%2Fthumb%2F8%2F88%2FTeam_Fortress_2_Group_Photo.jpg%2F500px-Team_Fortress_2_Group_Photo.jpg&imgrefurl=https%3A%2F%2Fwiki.teamfortress.com%2Fwiki%2FClasses%2Fhu&tbnid=NWjvJ9dtYldudM&vet=12ahUKEwi7vPnK95nwAhXCw-AKHZ6QCiMQMygAegUIARCwAQ..i&docid=7jai-KmMY3eHNM&w=500&h=341&q=team%20fortress%202&ved=2ahUKEwi7vPnK95nwAhXCw-AKHZ6QCiMQMygAegUIARCwAQ" width="50" height="50">
+                    </a>
+                </p>
+            </div>
+            <div class="box-3" >
+                <div class="header-image">
+        
+                </div>
+                <div class"details">
+                    <h2>Forza Horizont 4</h2>
+                    <p>
+                        A Forza Horizont 4 (röviden: FH4) a Microsoft álltal fejlesztett XBox ONE, XBox Series X/S és számítógépre tervezett világ szerte játszot arkad autószimulációs és versenyzős autós játék.
+                    </p>
+                    <p class="details">
+                        <a href="https://www.microsoft.com/hu-hu/p/forza-horizon-4/9pnqkhfld2wq?activetab=pivot:overviewtab" target="_blank">
+                        <img border="0" alt="ds3" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fgamespecial.com%2Fwp-content%2Fuploads%2F2020%2F04%2FForza-Horizon-4.jpg&imgrefurl=https%3A%2F%2Fgamespecial.com%2Fhu%2F809%2Fforza-horizon-4%2F&tbnid=n6rmkevN-WFqlM&vet=12ahUKEwiw6Y-z-ZnwAhVa0eAKHSlYAuwQMyguegUIARCuAw..i&docid=CvCmIbjjS0BecM&w=460&h=215&q=forza%20horizon%204&ved=2ahUKEwiw6Y-z-ZnwAhVa0eAKHSlYAuwQMyguegUIARCuAw" width="50" height="50">
+                        </a>
+                    </p>
+                </div>
+                <div class="box-4" >
+                    <div class="header-image">
+            
+                    </div>
+                    <div class="box-content">
+                        <h2>Formula ONE 2019</h2>
+                        <p>
+                            A Formula ONE 2019 (rövidítve: F1) a Codemasters álltal fejlesztett Föld körüli autóversenyzős arkad tipusú játék, amit az egész Földön több 100 000 000 játékos játszik minden nap.  
+                        </p>
+                        <p class="details">
+                            <a href="https://www.youtube.com/watch?v=g_lZdwzAtGU" target="_blank">
+                            <img border="0" alt="wt" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstore-images.s-microsoft.com%2Fimage%2Fapps.64651.67735221696398075.49489fa4-dc9f-47cb-8619-0fffafc3d441.047c7724-eb74-430c-bbb8-ecdb66860aea&imgrefurl=https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fp%2Ff1-2019%2Fbp4h9hd3fswb&tbnid=yQ5lDeIsEx5cMM&vet=12ahUKEwje6qfM-pnwAhXz6-AKHUpXB5wQMygHegUIARC1Ag..i&docid=4gjS6ftWoTBrhM&w=1920&h=1080&q=f1%202019%20game&ved=2ahUKEwje6qfM-pnwAhXz6-AKHUpXB5wQMygHegUIARC1Ag" width="50" height="50">
+                            </a>
+                        </p>
+                    </div>
+</body>
+</html>
