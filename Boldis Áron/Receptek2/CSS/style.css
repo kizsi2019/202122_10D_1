@@ -1,26 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
-    font-family: "Roboto", sans-serif;
-    background: url(../pics/bg-body.jpg) no-repeat;
-    background-size: cover 
+    font-family: 'Roboto', sans-serif;
+    background: url('../pics/bg-body.jpg');
+    background-size: cover;
+}
 
-}
-header{
-    background: url(../pics/bg-header.jpg)no-repeat;
-    height: 360px;
-    position: relative;
-}
 .wrapper{
     max-width: 800px;
     margin: 80px auto;
 }
+
+header{
+    background: url('../pics/bg-header.jpg') no-repeat;
+    height: 360px;
+    position: relative;
+}
+
 nav{
-    background: rgba(190, 0, 0, .7);
+    background: rgba(190, 0, 0, .8);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -31,29 +34,31 @@ nav::after{
     clear: both;
     display: table;
 }
-nav a {
+nav a{
     color: white;
     text-decoration: none;
     padding: 20px;
     display: block;
 }
 nav a:hover{
-    background: rgba(0,0,0,8);
+    background: rgba(0,0,0,.8)
 }
 nav ul{
     list-style: none;
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
-nav>ul> li {
+nav>ul>li{
     float: left;
-    
+  
 }
+
 main{
     background: white;
     padding: 40px;
 }
-main p {
+
+main p{
     line-height: 1.5;
 }
 main h1{
@@ -64,44 +69,41 @@ nav .submenu{
     width: 220px;
     display: none;
 }
+
 nav .has-submenu{
     position: relative;
 }
 nav .has-submenu::after{
-    content: "↓";
-    color:white;
+    content: "˅";
+    color: white;
     position: absolute;
     top: 20px;
-    right: 10px;
-
+    right: 15px;
 }
-
-nav .has-submenu:hover .submenu {
+nav .has-submenu:hover .submenu{
     display: block;
 }
-
-nav .submenu a {
+nav .submenu a{
     background: rgba(190, 0, 0, .8);
     padding: 10px 20px;
-
 }
-
 nav .has-submenu>a{
     padding-right: 30px;
 }
-nav .submenu a:hover {
+
+nav .submenu a:hover{
     background: black;
     
 }
 
 .cookie-accept{
-    position:fixed; 
-    bottom: 0 ;
+    position: fixed;
+    bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0, .9);
+    background: rgba(0,0,0,.9);
     color: white;
-    text-align: center;
+    text-align:center;
     padding: 20px;
 }
 
@@ -118,4 +120,5 @@ nav .submenu a:hover {
 .cookie-accept button:hover{
     background: red;
     color: white;
+
 }
