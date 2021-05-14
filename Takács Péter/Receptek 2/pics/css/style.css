@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
     box-sizing: border-box;
 }
-
-body {
+body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background: url('../pics/bg-body.jpg') no-repeat;
-    background-size: cover
+    font-family: "Roboto", sans-serif;
+    background: url("../bg-body.jpg") no-repeat;
+    background-size: cover 
+
 }
 header{
-    background: url('../pics/bg-header.jpg') no-repeat;
+    background: url(../bg-header.jpg)no-repeat;
     height: 360px;
     position: relative;
 }
@@ -19,7 +20,7 @@ header{
     margin: 80px auto;
 }
 nav{
-    background: rgba(190, 0, 0, .3);
+    background: rgba(190, 0, 0, .7);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -30,28 +31,29 @@ nav::after{
     clear: both;
     display: table;
 }
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     padding: 20px;
     display: block;
 }
 nav a:hover{
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0,0,0,8);
 }
 nav ul{
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
-nav ul li{
+nav>ul> li {
     float: left;
+    
 }
 main{
     background: white;
     padding: 40px;
 }
-main p{
+main p {
     line-height: 1.5;
 }
 main h1{
@@ -66,7 +68,7 @@ nav .has-submenu{
     position: relative;
 }
 nav .has-submenu::after{
-    content: "+";
+    content: "⥥";
     color:white;
     position: absolute;
     top: 20px;

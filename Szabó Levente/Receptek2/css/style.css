@@ -11,6 +11,7 @@ body{
 header{
     background:url('../pics/bg-header.jpg')no-repeat;
     height:360px;
+    position: relative;
 }
 .wrapper{
     max-width:800px;
@@ -18,6 +19,10 @@ header{
 }
 nav{
     background:rgba(190, 0, 0, .3);
+    position: absolute;
+    left:0;
+    top:0;
+    right: 0;
 }
 nav::after{
     content:"";
@@ -38,7 +43,7 @@ nav ul{
     padding:0;
     margin:0;
 }
-nav ul li{
+nav>ul>li{
     float:left;
 }
 main{
@@ -47,4 +52,56 @@ main{
 }
 main p{
     line-height:1.5;
+}
+main h1{
+    margin-top:0;
+}
+nav .submenu{
+    position:absolute;
+    display:none;
+}
+nav .has-submenu{
+    position: relative;
+}
+nav .has-submenu::after{
+    content:"ˇ";
+    color: white;
+    position:absolute;
+    top:20px;
+    right:10px;
+}
+nav .has-submenu:hover .submenu{
+    display:block;
+}
+nav .submenu a{
+    background: rgba(190,0,0,.5);
+    padding:10px 20px;
+}
+nav .has-submenu>a{
+    padding-right:30px;
+}
+nav .submenu a:hover{
+    background: black;
+}
+.cookie-accept{
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, .9);
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+.cookie-accept button{
+    background: yellow;
+    color: black;
+    border:0;
+    margin-left:10px;
+    padding:5px 10px;
+    border-radius:3px;
+    cursor:pointer;
+}
+.cookie-accept button:hover{
+    background: red;
 }
