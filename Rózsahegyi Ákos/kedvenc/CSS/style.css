@@ -19,6 +19,98 @@ body {
     background-attachment: fixed;
 }
 
+header {
+    background: url('../pics/header-image.jpg') no-repeat;
+    height: 360px;
+    position: relative;
+    color: white;
+    text-shadow: 0 0 20px rgba(88, 222, 255, .8);
+}
+
+header h1 {
+    font-size: 85px;
+    font-weight: 700px;
+    padding: 80px 60px;
+    color: white;
+    text-shadow: 0 0 20px rgba(88, 222, 255, .8);
+    position: relative;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+nav {
+    background: rgba(7, 41, 192, .7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+nav::after {
+    content: "";
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav .submenu {
+    position: absolute;
+    width: 220px;
+    display: none;
+}
+
+nav .has-submenu {
+    position: relative;
+}
+
+nav .has-submenu::after {
+    content: "⥥";
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+nav .has-submenu:hover .submenu {
+    display: block;
+}
+
+nav .submenu a {
+    background: rgba(14, 42, 165, 0.7);
+    padding: 10px 20px;
+}
+
+nav .has-submenu>a {
+    padding-right: 30px;
+}
+
+nav .submenu a:hover {
+    background: black;
+}
+
 .box {
     background-color: white;
     line-height: 30px;
