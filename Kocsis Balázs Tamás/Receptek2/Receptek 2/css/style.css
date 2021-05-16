@@ -66,7 +66,7 @@ nav .has-submenu{
     position: relative;
 }
 nav .has-submenu::after{
-    content: "⥥";
+    content: "+";
     color:white;
     position: absolute;
     top: 20px;

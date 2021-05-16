@@ -3,23 +3,19 @@
     box-sizing: border-box;
     border-radius: 25px;
 }
-
 body {
     background: url(../pics/background2.jpg) fixed;
     font-family: 'Montserrat Alternates';
     background-image: fill;
     background-repeat: no-repeat;
 }
-
 a{
     text-decoration: none;
     color: black;
 }
-
 .header{
     height: 231px;
 }
-
 .header, .content{
     background-color: white;
     width: 675px;
@@ -27,29 +23,89 @@ a{
     margin-left: 31%;
     opacity: 0.7;
 }
-
 table{
     width: 100%;
 }
-
 table td{
     vertical-align: top;
     border-radius: 0;
 }
-
 h2{
     margin-bottom: 0px;
 }
-
 .cim{
     margin-top: 0px;
 }
-
 li{
     margin-bottom: 10px;
 }
-
 .icon{
     width: 20px;
     height: 20px;
+}
+nav{
+    background:rgba(190, 0, 0, .3);
+    position: absolute;
+    left:0;
+    bottom:0;
+    right: 0;
+}
+nav::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+nav a{
+    color: white;
+    text-decoration:none;
+    padding:20px;
+    display:block;
+}
+nav a:hover{
+    background:rgba(0, 0, 0, .8);
+}
+nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+nav>ul>li{
+    float:left;
+}
+main{
+    background:white;
+    padding:40px;
+}
+main p{
+    line-height:1.5;
+}
+main h1{
+    margin-top:0;
+}
+nav .submenu{
+    position:absolute;
+    display:none;
+}
+nav .has-submenu{
+    position: relative;
+}
+nav .has-submenu::after{
+    content:"ˇ";
+    color: white;
+    position:relative;
+    top:20px;
+    right:10px;
+}
+nav .has-submenu:hover .submenu{
+    display:block;
+}
+nav .submenu a{
+    background: rgba(190,0,0,.5);
+    padding:10px 20px;
+}
+nav .has-submenu>a{
+    padding-right:30px;
+}
+nav .submenu a:hover{
+    background: black;
 }
