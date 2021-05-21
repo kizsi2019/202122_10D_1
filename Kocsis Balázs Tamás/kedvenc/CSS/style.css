@@ -5,9 +5,44 @@
 
 body{
     background : url(../pics/wallpaper.jpg) fixed;
-
     margin: 0;
     font-family:'Orelega One', cursive;
+}
+header{
+    color: rgba(250, 100, 55, 6);
+}
+.wrapper {
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+nav{
+    background: rgba(250, 100, 55, 5);
+    position: top;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li{
+    float: left;
 }
 
 .box{
