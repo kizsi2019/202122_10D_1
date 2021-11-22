@@ -1,0 +1,17 @@
+nyelvek = ['Python', 'C', 'C++', 'Java']
+nyelvek_honlapkesziteshez = ['HTML', 'CSS', 'JavaScript']
+nyelvek.extend(nyelvek_honlapkesziteshez)
+nyelvek.clear()
+# nyelvek.insert('Go')
+# nyelvek.remove('Python')
+# nyelvek.pop(3)
+# torolt_nyelv = nyelvek.pop()
+# nyelvek.sort()
+# print(nyelvek)
+# print(nyelvek.index('C'))
+# print('C++' in nyelvek)
+# nyelvek_masolat = nyelvek.copy()
+# nyelvek.append('Go')
+# print(nyelvek.append('Go'))
+print(nyelvek)
+# print(nyelvek_masolat)
