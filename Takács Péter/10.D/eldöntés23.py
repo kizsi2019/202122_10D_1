@@ -1,0 +1,1 @@
+elnézést nem értettem :(
