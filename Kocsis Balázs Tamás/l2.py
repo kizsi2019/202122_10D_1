@@ -8,7 +8,7 @@ pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
   
-bird_surf = pygame.image.load('img/bird1.png').convert_alpha()
+bird_surf = pygame.image.load('Kocsis Balázs Tamás\img/bird1.png').convert_alpha()
 bird_rect = bird_surf.get_rect(midleft=(0, HEIGHT / 2))
 bird_forward = True
   
@@ -24,7 +24,7 @@ while running:
         bird_rect.left += BIRD_SPEED
     elif bird_rect.right == WIDTH:
         bird_forward = False
-        bird_surf = pygame.image.load('img/bird1back.png').convert_alpha()
+        bird_surf = pygame.image.load('Kocsis Balázs Tamás\img/bird1back.png').convert_alpha()
         # A kép tükrözése a kódban is lehetséges (lásd a Példák részben):
         # bird_surf = pygame.transform.flip(bird_surf, True, False)
         bird_rect = bird_surf.get_rect(midright=(WIDTH - 1, HEIGHT / 2))
