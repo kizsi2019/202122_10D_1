@@ -8,10 +8,10 @@ pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
   
-bird_surf_1 = pygame.image.load('img/bird1.png').convert_alpha()
-bird_surf_2 = pygame.image.load('img/bird2.png').convert_alpha()
-bird_surf_3 = pygame.image.load('img/bird3.png').convert_alpha()
-bird_surf_4 = pygame.image.load('img/bird4.png').convert_alpha()
+bird_surf_1 = pygame.image.load('Kocsis Balázs Tamás\img/bird1.png').convert_alpha()
+bird_surf_2 = pygame.image.load('Kocsis Balázs Tamás\img/bird2.png').convert_alpha()
+bird_surf_3 = pygame.image.load('Kocsis Balázs Tamás\img/bird3.png').convert_alpha()
+bird_surf_4 = pygame.image.load('Kocsis Balázs Tamás\img/bird4.png').convert_alpha()
 bird_surf = [bird_surf_1, bird_surf_2, bird_surf_3, bird_surf_4]
 
 '''

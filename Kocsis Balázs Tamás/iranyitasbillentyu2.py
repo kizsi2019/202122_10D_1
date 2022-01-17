@@ -8,7 +8,7 @@ pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
   
-bird = pygame.image.load('img/bird1.png').convert_alpha()
+bird = pygame.image.load('Kocsis Balázs Tamás\img/bird1.png').convert_alpha()
 bird_x = WIDTH / 2
 bird_y = HEIGHT / 2
   
@@ -20,10 +20,10 @@ while running:
   
     keys = pygame.key.get_pressed()
     if keys[pygame.K_RIGHT] and bird_rect.right <= WIDTH:
-        bird = pygame.image.load('img/bird1.png')
+        bird = pygame.image.load('Kocsis Balázs Tamás\img/bird1.png')
         bird_x += SPEED
     elif keys[pygame.K_LEFT] and bird_rect.left >= 0:
-        bird = pygame.image.load('img/bird1back.png')
+        bird = pygame.image.load('Kocsis Balázs Tamás\img/bird1back.png')
         bird_x -= SPEED
   
     if keys[pygame.K_UP] and bird_rect.top >= 0:

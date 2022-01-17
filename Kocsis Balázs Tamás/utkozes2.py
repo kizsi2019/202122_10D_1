@@ -9,22 +9,22 @@ pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
   
-balloon_surf = pygame.image.load('img/balloon.png').convert_alpha()
+balloon_surf = pygame.image.load('Kocsis Balázs Tamás\img/balloon.png').convert_alpha()
 balloons_rect = []
 for _ in range(5):
     balloon_rect = balloon_surf.get_rect(
         center=(random.randint(50, WIDTH - 50), random.randint(50, HEIGHT - 50)))
     balloons_rect.append(balloon_rect)
   
-bird_fw_1 = pygame.image.load('img/bird1.png').convert_alpha()
-bird_fw_2 = pygame.image.load('img/bird2.png').convert_alpha()
-bird_fw_3 = pygame.image.load('img/bird3.png').convert_alpha()
-bird_fw_4 = pygame.image.load('img/bird4.png').convert_alpha()
+bird_fw_1 = pygame.image.load('Kocsis Balázs Tamás\img/bird1.png').convert_alpha()
+bird_fw_2 = pygame.image.load('Kocsis Balázs Tamás\img/bird2.png').convert_alpha()
+bird_fw_3 = pygame.image.load('Kocsis Balázs Tamás\img/bird3.png').convert_alpha()
+bird_fw_4 = pygame.image.load('Kocsis Balázs Tamás\img/bird4.png').convert_alpha()
 birds_fw = [bird_fw_1, bird_fw_2, bird_fw_3, bird_fw_4]
-bird_b_1 = pygame.image.load('img/bird1back.png').convert_alpha()
-bird_b_2 = pygame.image.load('img/bird2back.png').convert_alpha()
-bird_b_3 = pygame.image.load('img/bird3back.png').convert_alpha()
-bird_b_4 = pygame.image.load('img/bird4back.png').convert_alpha()
+bird_b_1 = pygame.image.load('Kocsis Balázs Tamás\img/bird1back.png').convert_alpha()
+bird_b_2 = pygame.image.load('Kocsis Balázs Tamás\img/bird2back.png').convert_alpha()
+bird_b_3 = pygame.image.load('Kocsis Balázs Tamás\img/bird3back.png').convert_alpha()
+bird_b_4 = pygame.image.load('Kocsis Balázs Tamás\img/bird4back.png').convert_alpha()
 birds_b = [bird_b_1, bird_b_2, bird_b_3, bird_b_4]
   
 bird_x = WIDTH / 2
