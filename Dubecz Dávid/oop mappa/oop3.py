@@ -18,8 +18,8 @@ def info(self):
 korok = []
 
 for _ in range(5):
-    kor = Kor(random.randint)
+    kor = Kor(random.randint(0, 10))
     korok.append(kor)
     
-
-
+for kor in korok:
+    kor.info()
