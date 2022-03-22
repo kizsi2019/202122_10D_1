@@ -11,5 +11,5 @@ print(kereses("Informatika", "I"))
 print(kereses("Informatika", "a"))
 print(kereses("Informatika", "x"))
 
-sz = "Peldaszoveg"
+sz = "Peldaszove"
 print(sz.find("e")) 
