@@ -1,0 +1,11 @@
+asd = input('írj be egy szót! ')
+hosszu_asd = len(asd)
+masiik = input('írj be még egy szót! ')
+masiik_hosszu = len(masiik)
+
+if hosszu_asd > masiik_hosszu:
+    print('A hosszabb szó:', asd)
+elif masiik_hosszu > hosszu_asd:
+    print('A hosszabb szó:', masiik)
+else:
+    print('ez a kettő ugyan azz!!!.')
