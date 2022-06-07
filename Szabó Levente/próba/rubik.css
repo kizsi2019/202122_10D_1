@@ -1,0 +1,93 @@
+body{
+  background-size: 70px 70px;
+  background-position: right top;
+  padding: 15px 95px 15px 15px;
+  background: url(hatterkocka.png);
+  background-color: #ededc1;
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+#cimkep{
+  float:left;  
+}
+
+h1{
+  margin: 40px 0px 100px 175px;
+}
+
+p{
+  text-align: justify;
+}
+
+
+.jobbra{
+  text-align: right;
+}
+
+.erdekesseg{
+  font-size: 70%;
+  padding: 7px;
+  font-weight: normal;
+}
+
+li{
+  font-weight:bold;
+}
+
+.betű{
+  color: #443502;
+  margin: 5px;
+}
+
+.cimkep{
+  width: 150px;
+  float: left;
+}
+
+.betű2{
+  color: #443502;
+  margin: 5px;
+}
+
+.betű3{
+  color: #443502;
+  margin: 5px;
+  float: right;
+  text-align: right;
+}
+
+.érdekesség{
+  color: #443502;
+  margin: 5px;
+  font-style: italic;
+  float: left;
+  width: 1080px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 0%;
+}
+
+.betű4{
+  color: #443502;
+  margin: 5px;
+  float: right;
+  text-align: right;
+  width: 1500px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 0%;
+}
+
+.betű5{
+  color: #443502;
+  margin: 5px;
+  text-align: right;
+  width: 1500px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 0%;
+}
