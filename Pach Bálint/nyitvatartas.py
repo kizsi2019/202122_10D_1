@@ -1,10 +1,9 @@
-time = int(input("Hány óra van most?" ))
-
-close = 16
-open = 8
-
-if time >= open and time < close:
-    print("A bolt nyitva tart")
-    print("Ennyi óra van még odamenni: ",close - time)
+#!/usr/bin/env python3
+óra = input('Hány óra van most? ')
+óra = int(óra)
+if óra >= 8 and óra < 16:
+    print('A bolt nyitva van.')
+    még_ennyit_van_nyitva = 16 - óra
+    print('Ennyi órád van még odaérni:', még_ennyit_van_nyitva)
 else:
-    print("A bolt zárva van.")
+    print('A bolt zárva van.')
