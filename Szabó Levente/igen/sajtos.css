@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%
+}
+body{
+    font-family: 'DotGothic16', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-style: inherit;
+    line-height: 30px;
+    background-image: url(../bg-body.gif);
+    background-repeat: repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+div{
+    width: 90%;
+    padding: 20px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: yellow;
+    margin: 20px 0 20px 0;
+}
